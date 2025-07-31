@@ -235,7 +235,7 @@ main {
     text-decoration: none;
 }
 
-.nav-bar a:hover, .nav-bar a:active {
+.nav-bar a:hover, .nav-bar .active {
     background-color: var(--accent-hover);
 
 }
