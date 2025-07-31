@@ -12,31 +12,9 @@
         <h1>ASSISTENTE DE TREINOS</h1>
     </header>
     <main>
-        <div class="workout-container">
-                <h2 id="workout-title">Minha lista de treinos</h2>
-        
-                <div class="workout-card">
-                    <h4 class="card-title title">Segunda feira</h3>
-                    <div class="info-repetition-container item-individual-container">
-                        <h5 class="exercises-number-title title">NÚMERO DE EXERCICIOS: </h5>
-                        <p class="exercises-number desc">5</p>
-                    </div>
-                    <div class="description-container item-individual-container">
-                        <p class="desc">DESCRIÇÃO</p>
-                    </div>
-                </div>
-
-                <div class="workout-card">
-                    <h4 class="card-title title">Terça feira</h3>
-                    <div class="info-repetition-container item-individual-container">
-                        <h5 class="exercises-number-title title">NÚMERO DE EXERCICIOS: </h5>
-                        <p class="exercises-number desc">7</p>
-                    </div>
-                    <div class="description-container item-individual-container">
-                        <p class="desc">DESCRIÇÃO</p>
-                    </div>
-                </div>
-
+        <h2 class="workout-title title">Minha Lista de Treinos</h2>
+        <div class="workout-container" id="workout-container">
+                
         </div>
     </main>
 
@@ -52,7 +30,7 @@
             <form id="add-workout-form">
                 <div class="form-group">
                     <label for="workout-name-input">Nome do Treino</label>
-                    <input type="text" id="workout-name-input" placeholder="Ex: Treino de Perna" required>
+                    <input type="text" id="workout-name-input" placeholder="Ex: Treino de Perna">
                 </div>
                 <div class="form-group">
                     <label for="workout-desc-input">Foco ou Descrição</label>
